@@ -4,7 +4,7 @@ import Addskill from "./Addskill";
 import Skill from "./Skill";
 
 const App = () => {
-  const [skills, setSkills] = useState(["HTML"], ["a"], ["c"], ["s"], ["w"]);
+  const [skills, setSkills] = useState(["HTML","Skill1", "Skill2", "Skill3", "Skill4", "Skill5"]);
 
   return (
     <>
@@ -12,6 +12,7 @@ const App = () => {
         <h1 id="heading">Add skill</h1>
         <Addskill />
         <Skill />
+        {console.log(skills)}
       </SkillsContext.Provider>
     </>
   );
