@@ -16,7 +16,7 @@ const Skill = () => {
 
   return (
     <>
-      <ul>
+      <ul id="skill-list">
         {skills
           ? skills.map((skill, index) => (
             <div key={index} style={{display:"flex"}}>
