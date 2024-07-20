@@ -19,7 +19,7 @@ const Skill = () => {
       <ul>
         {skills
           ? skills.map((skill, index) => (
-              <li key={index} id="skill-number-${index}">
+              <li key={index} id={`skill-number-${index}`}>
                 {skill}
                 <button id="skill-add-btn" onClick={()=>handleDelete(skill)}>Delete</button>
               </li>
