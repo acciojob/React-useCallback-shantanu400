@@ -22,7 +22,7 @@ const Addskill = () => {
     <div>
       <form onSubmit={handleAdd}>
         <input type="text" id="skill-input"></input>
-        <button type="submit" id="skill-add-btn"> Add Skill</button>
+        <button type="submit" id="skill-add-btn">Add Skill</button>
       </form>
     </div>
   );
