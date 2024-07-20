@@ -7,7 +7,7 @@ import Skill from './Skill';
 const App = () => {
 
     
-const [skills,setSkills]=useState(["HTML"]);
+const [skills,setSkills]=useState(["HTML"],["a"],["c"],["s"],["w"]);
 
 
   return (
