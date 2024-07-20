@@ -4,7 +4,7 @@ import Addskill from "./Addskill";
 import Skill from "./Skill";
 
 const App = () => {
-  const [skills, setSkills] = useState(["HTML","Skill1", "Skill2", "Skill3", "Skill4", "Skill5"]);
+  const [skills, setSkills] = useState(["HTML","Skill1", "Skill2", "Skill3", "Skill4"]);
 
   return (
     <>

@@ -19,12 +19,16 @@ const Skill = () => {
       <ul>
         {skills
           ? skills.map((skill, index) => (
-              <li key={index} id={`skill-number-${index}`}>
+            <div key={index} style={{display:"flex"}}>
+            <li  id={`skill-number-${index}`}>
                 {skill}
-                <button id="skill-add-btn" onClick={() => handleDelete(skill)}>
-                  Delete
-                </button>
+                
               </li>
+              <button id="skill-add-btn" onClick={() => handleDelete(skill)}>
+              Delete
+            </button>
+            </div>
+              
             ))
           : ""}
       </ul>
