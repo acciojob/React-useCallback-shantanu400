@@ -24,7 +24,6 @@ const Skill = () => {
                 {skill}
                 
               </li>
-              
             </div>
               
             ))

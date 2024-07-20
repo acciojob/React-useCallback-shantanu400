@@ -17,12 +17,12 @@ const Addskill = () => {
     setSkills(updatedskill(nskill));
     e.target.elements["skill-input"].value = "";
   };
-  
+
   return (
     <div>
       <form onSubmit={handleAdd}>
         <input type="text" id="skill-input"></input>
-        <button type="submit"> Add Skill</button>
+        <button type="submit" id="skill-add-btn"> Add Skill</button>
       </form>
     </div>
   );
