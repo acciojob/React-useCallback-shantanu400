@@ -10,8 +10,9 @@ const App = () => {
     <>
       <SkillsContext.Provider value={{ skills, setSkills }}>
         <h1 id="heading">Add skill</h1>
-        <Skill />
         <Addskill />
+        {/* <Skill /> */}
+       
         
      {/* {console.log(skills)} */}
       </SkillsContext.Provider>

@@ -17,6 +17,7 @@ const Addskill = () => {
     setSkills(updatedskill(nskill));
     e.target.elements["skill-input"].value = "";
   };
+  
   return (
     <div>
       <form onSubmit={handleAdd}>
