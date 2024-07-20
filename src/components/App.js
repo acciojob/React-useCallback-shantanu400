@@ -7,7 +7,7 @@ import Skill from './Skill';
 const App = () => {
 
     
-const [skills,setSkills]=useState(["hare"]);
+const [skills,setSkills]=useState(["HTML"]);
 
 
   return (
